@@ -1,0 +1,75 @@
+body{
+    background-image: url(./white-concrete-wall\ 1.png);
+}
+
+.navbar{
+    background-color: #FDCB34;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item {
+    max-height: 100vh;
+    min-height: 300px;
+}
+
+.navbar-nav a{
+    font-weight: 400;
+    color: #EA2B32;
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-caption { 
+	bottom: 220px;
+	z-index: 2;
+}
+
+h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #FDCB34;
+}
+
+.sub-judul{
+    font-size: 30px;
+    font-weight: 800;
+    color: #EA2B32;
+}
+
+.about{
+    /* padding: 100px 0; */
+    padding-top: 100px;
+}
+.portfolioo{
+    padding-top: 150px;
+}
+
+.contactt{
+    padding-top: 150px;
+}
+.section-header h2{
+    font-weight: 800;
+    font-size: 50px;
+    color: #FDCB34;
+}
+
+.section-header p{
+    font-weight: 700;
+    font-size: 30px;
+    color: #EA2B32;
+}
+
+/* AKHIR ABOUT */
+
+
+/* AWAL PORTOFOLIO */
+.lead{
+	font-size:15px;
+}
+/* AKHIR PORTOFOLIO */
+
+
+/* RESPONSIV */
+
+@media only screen and (max-width: 600px) {
+    
+}
