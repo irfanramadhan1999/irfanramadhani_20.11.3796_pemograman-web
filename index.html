@@ -18,8 +18,9 @@
     <!-- css animasi -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- javascript -->
-    <script src="script.js"></script>
+
+
+
 
     <title>irfan ramadhani 20.11.3796</title>
   </head>
@@ -195,13 +196,35 @@
   </footer>
   <!-- AKHIR FOOTER -->
 
+        <!-- javasript animasi -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- javasript -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- javasript -->
+        <script>
+          AOS.init();
+          let calcScrollValue = () => {
+            let scrollProgress = document.getElementById("progress");
+            let progressValue = document.getElementById("progress-value");
+            let pos = document.documentElement.scrollTop;
+            let calcHeight =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+            let scrollValue = Math.round((pos * 100) / calcHeight);
+            if (pos > 100) {
+              scrollProgress.style.display = "grid";
+            } else {
+              scrollProgress.style.display = "none";
+            }
+            scrollProgress.addEventListener("click", () => {
+              document.documentElement.scrollTop = 0;
+            });
+            scrollProgress.style.background = `conic-gradient(#FDCB34 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+          };
+          window.onscroll = calcScrollValue;
+          window.onload = calcScrollValue;
+        </script>
 
-  <script>
-     AOS.init();
-  </script>
+
 
 
 
