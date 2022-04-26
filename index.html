@@ -14,7 +14,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,500&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+
+    <!-- css animasi -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>irfan ramadhani 20.11.3796</title>
   </head>
   <body>
       <!-- awal navbar -->
@@ -71,10 +75,10 @@
                         <h2>About Me</h2>
                         <p>Saya Mahasiswa Universitas Amikom Yogyakarta Angkatan 2020, dan Sekarang Bekerja Sebagai UI/UX di Rafana Team</p>
                         <div class="kelompokfoto ms-5">
-                          <div class="d-inline image"><img src="./f1.png" class="border border-warning border-3" alt="" style="width: 300px;"></div>
-                          <div class="d-inline image"><img src="./f2.png" class="border border-warning border-3" alt="" style="width: 300px;"></div>
-                          <div class="d-inline image"><img src="./f3.png" class="border border-warning border-3" alt="" style="width: 300px;"></div>
-                          <div class="d-inline image"><img src="./f4.png" class="border border-warning border-3" alt="" style="width: 300px;"></div>
+                          <div class="d-inline image"><img src="./f1.png" data-aos="flip-up" data-aos-duration="500" class="border border-warning border-3" alt="" style="width: 300px;"></div>
+                          <div class="d-inline image"><img src="./f2.png" data-aos="flip-left" data-aos-duration="500" class="border border-warning border-3" alt="" style="width: 300px;"></div>
+                          <div class="d-inline image"><img src="./f3.png" data-aos="flip-right" data-aos-duration="500" class="border border-warning border-3" alt="" style="width: 300px;"></div>
+                          <div class="d-inline image"><img src="./f4.png" data-aos="flip-up" data-aos-duration="500" class="border border-warning border-3" alt="" style="width: 300px;"></div>
                         </div>
                     </div>
                 </div>
@@ -94,7 +98,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-4">
+                <div class="col-12 col-md-12 col-lg-4" data-aos="zoom-in" data-aos-duration="500">
                     <div class="card text-light text-center bg-white pb-2">
                         <div class="card-body text-dark">
                           <div class="img-area mb-4">
@@ -106,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4">
+                <div class="col-12 col-md-12 col-lg-4" data-aos="zoom-in-up" data-aos-duration="500">
                     <div class="card text-light text-center bg-white pb-2">
                         <div class="card-body text-dark">
                           <div class="img-area mb-4">
@@ -118,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-12 col-lg-4">
+                <div class="col-12 col-md-12 col-lg-4" data-aos="zoom-in-down" data-aos-duration="500">
                     <div class="card text-light text-center bg-white pb-2">
                         <div class="card-body text-dark">
                           <div class="img-area mb-4">
@@ -181,6 +185,14 @@
       </div>
   </footer>
   <!-- AKHIR FOOTER -->
+
+
+  <!-- javasript -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+     AOS.init();
+  </script>
 
 
 
