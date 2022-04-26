@@ -25,7 +25,7 @@ body{
 h5{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 100px;
     color: #FDCB34;
 }
 
@@ -70,6 +70,12 @@ h5{
 
 /* RESPONSIV */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
+    .carousel-caption{
+        margin-bottom: 1000px;
+    }
     
+    .section h2{
+        color: aqua;
+    }
 }
