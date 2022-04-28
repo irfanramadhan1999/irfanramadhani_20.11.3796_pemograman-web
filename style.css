@@ -90,6 +90,7 @@ h5{
     place-items: center;
     font-size: 35px;
     color: #001a2e;
+    
   }
 
   /* akhir animasi scroll js native */
@@ -97,12 +98,23 @@ h5{
 
 /* RESPONSIV */
 
-@media only screen and (max-width: 450px) {
-    .carousel-caption{
-        margin-bottom: 1000px;
+@media screen and (max-width: 1000px) {
+
+    .carousel-caption img { 
+        margin-top: 100px !important;        
     }
     
-    .section h2{
-        color: aqua;
+    h5{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        color: #FDCB34;
     }
+    
+    .sub-judul{
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #EA2B32;
+    }
+
 }
