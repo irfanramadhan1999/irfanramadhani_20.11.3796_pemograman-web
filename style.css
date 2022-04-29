@@ -7,19 +7,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.carousel-item {
-    max-height: 100vh;
-    min-height: 300px;
-}
+
 
 .navbar-nav a{
     font-weight: 400;
     color: #EA2B32;
     font-family: 'Poppins', sans-serif;
-}
-.carousel-caption { 
-	bottom: 220px;
-	z-index: 2;
 }
 
 h5{
@@ -100,10 +93,7 @@ h5{
 
 @media screen and (max-width: 1000px) {
 
-    .carousel-caption img { 
-        margin-top: 100px !important;        
-    }
-    
+
     h5{
         font-family: 'Poppins', sans-serif;
         font-weight: 800;
@@ -117,4 +107,15 @@ h5{
         color: #EA2B32;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .kelompokfoto img{
+        justify-content:center;
+        margin: 10px 0px 10px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
 }
